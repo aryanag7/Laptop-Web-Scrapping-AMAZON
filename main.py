@@ -13,6 +13,8 @@ for i in quote:
     spans = i.find('span', attrs={'class': 'text'})
     author =i.find('small',attrs={'class':'author'})
     for span in spans:
-        print(span.string)
-        print(author.string)
+        print(span.string,author.string)
+
+
+
 
